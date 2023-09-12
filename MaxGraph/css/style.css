@@ -1,0 +1,335 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: "Inter";
+}
+/*----------шапка сайта----------*/
+.header {
+    position: absolute;
+    left: 0;
+    width: 100%;
+}
+.wrapper {
+max-width: 1200px;
+margin: 0 auto;
+}
+.header-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 51px;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.list:last-child {
+    padding-right: 0;
+}
+.list li a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-right: 35px;
+    
+}
+.list li a:focus,.list li a:active{
+    opacity: .50;
+
+}
+/*--------конец шапки-------- */
+
+/*-----------основная часть сайта main блок 1-------- */
+.fon-main {
+    min-height: 100vh;
+    background-image: url(../image/fon-headera.jpg);
+    background-size: cover;
+    
+}
+.main-title {
+padding-top: 269px;
+max-width: 936px;
+color: #FFF;
+font-size: 96px;
+font-style: normal;
+font-weight: 500;
+margin-bottom: 30px;
+}
+.main-text-title {
+    max-width: 468px;
+color: #FFF;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%;
+margin-bottom: 50px;
+}
+
+.button-submit {
+padding: 20px 67px;
+color: var(--fill-color-2-dark-grey, #1D1D1F);
+font-size: 17px;
+font-style: normal;
+font-weight: 600;
+border: none;
+margin-bottom: 211px;
+
+}
+.button-submit:hover {
+    cursor: pointer;
+    background-color: #000;
+    color: #FFF;
+}
+.button-submit:focus {
+    outline: none;
+}
+/*--------основная часть сайта main блок 2------- */
+.glav-block {
+    padding-top: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.number1,.number2,.number3 {
+color:  #1D1D1F;
+font-size: 64px;
+font-style: normal;
+font-weight: 300;
+line-height: 140%;
+margin-bottom: 0;
+}
+.number-text1,.number-text2,.number-text3 {
+color:  #838383;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%;
+margin-bottom: 60px; 
+}
+.number-text3 {
+margin-bottom: 266px;
+}
+.block-right-text {
+    padding-left: 430px;
+}
+.amet {
+color: #1D1D1F;
+font-size: 44px;
+font-style: normal;
+font-weight: 700;
+line-height: 140%;
+max-width: 530px;
+margin-bottom: 60px;
+}
+.amet-text1,.amet-text2 {
+color: #1D1D1F;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; 
+max-width: 570px;
+margin-bottom: 90px;
+}
+.amet-text2 {
+    margin-top: -60px;
+}
+/*---------основная информация блок с видео----- */
+.video {
+    margin-bottom: 190px;
+}
+
+/*----------блок c информации компании где есть кнопка с картинкой------ */
+.offer-glav-block {
+    display: flex;
+    justify-content: space-between;
+}
+.block-top-offer {
+    margin-top: 80px
+}
+.odio {
+color:#838383;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+margin-bottom: 20px;
+}
+.odio-text {
+max-width: 570px;
+color: #1D1D1F;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; 
+margin-bottom: 60px;
+}
+
+.submit-odio {
+    padding: 20px 67px;
+    color:  #fff;
+    background-color: #1D1D1F;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 209px;
+    border: none;
+}
+.submit-odio:hover {
+    opacity: .75;
+    cursor: pointer;
+    color: #000;
+    background-color: #FFF;
+    border: none;
+}
+.submit-odio:focus {
+    opacity: .8;
+    outline: none;
+}
+.block-image-offer {
+    margin-bottom: 120px;
+}
+.block-image-integer {
+    margin-bottom: 190px;
+}
+/*----------блок с информации о мостах после блока с картинками------ */
+.text-quoute1 {
+color: #838383;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+margin-bottom: 50px;
+}
+.text-quoute2 {
+    max-width: 820px;
+    color:  #1D1D1F;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; 
+    margin-bottom: 30px;
+}
+.user {
+color: var(--fill-color-3-grey, #838383);
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+margin-bottom: 190px;
+}
+.glav-user {
+    color: var(--fill-color-2-dark-grey, #1D1D1F);
+}
+/* ----------- блок с изображеним дома----- */
+.image-house {
+    min-height: 100vh;
+    background-image: url(../image/image\ house.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 230px;
+}
+/*--------блок с информации стилизация с помощью grid---- */
+.container-inform {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgba(29, 29, 31, 0.4);
+}
+.container-inform1 {
+    display: flex;
+    padding-top: 40px;
+    margin-bottom: 40px;
+}
+.text-station {
+    padding-right: 492px;
+    color: var(--fill-color-2-dark-grey, #1D1D1F);
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+}
+.text-station1 {
+    max-width: 570px;
+    color: var(--fill-color-3-grey, #838383);
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; 
+}
+.web-text {
+    padding-right: 471px ;
+}
+.design-text {
+    padding-right: 524px;
+}
+.strategy-text {
+    padding-right: 498px;
+    margin-bottom: 220px;
+}
+/*-------конец блока main-------*/
+/*---- начало блока footer----------*/
+footer {
+    background-color: var(--fill-color-2-dark-grey, #1D1D1F);
+}
+.glav-block-footer {
+   display: flex;
+justify-content: space-between;
+}
+/*------левый блок футера----- */
+.image-footer {
+    padding-top: 90px;
+    margin-bottom: 48px
+}
+.location-company {
+color: var(--fill-color-3-grey, #838383);
+text-align: right;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; 
+margin-bottom: 30px;
+}
+.icons-logo {
+display: flex;
+list-style: none;
+}
+.icons-logo-list {
+    padding-right: 20px;
+    margin-bottom: 126px;
+}
+/*------правый блок футера-------- */
+.text-adress {
+max-width: 501px;
+color: var(--fill-color-1-white, #FFF);
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+padding-top: 90px;
+margin-bottom: 30px;
+}
+.input-email {
+    width: 570px;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid  #838383;
+    padding-bottom: 24px;
+    color: var(--fill-color-3-grey, #838383);
+
+font-size: 13px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.right-block-but {
+    background-color: transparent;
+    border: none;
+    color: #FFF;
+    font-size: 20px;
+    margin-left: -7px;
+}
+
